@@ -10,6 +10,7 @@ python = "^3.12"
 
 [tool.poetry.scripts]
 capitalize = "capitalize_package.capitalize:main"
+test_capitalize = "tests.test_capitalize:main"
 
 [build-system]
 requires = ["poetry-core"]
