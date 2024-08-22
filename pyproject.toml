@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "capitalize_package"
+version = "0.1.0"
+description = "Capitalize first letter"
+authors = ["Igor Bessonov <ikogep23@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.scripts]
+capitalize = "capitalize_package.capitalize:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
