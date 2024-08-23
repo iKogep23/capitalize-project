@@ -13,6 +13,9 @@ capitalize = "capitalize_package.capitalize:main"
 test_capitalize = "tests.test_capitalize:main"
 assert_capitalize = "tests.assert_capitalize:main"
 
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
