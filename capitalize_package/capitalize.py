@@ -1,4 +1,12 @@
 def capitalize(text):
+    '''Capitalizing first letter of given string.
+
+    Usage examples:
+    >>> capitalize('hello')
+    'Hello'
+    >>> capitalize('')
+    ''
+    '''
     if text == '':
         return ''
     first_char = text[0].upper()
